@@ -1,0 +1,49 @@
+.container {
+    background-color:  hsl(218, 23%, 16%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.card h2 {
+    color: hsl(150, 100%, 66%);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+.card p {
+    color: hsl(193, 38%, 86%);
+    font-size: 23px;
+    padding: 23px;
+}
+
+.card .botao {
+    border-radius: 50px;
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    transform: translateY(50%);
+    height: 60px;
+    width: 60px;
+}
+
+.card .botao:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px  hsl(150, 100%, 66%);
+}
+
